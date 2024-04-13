@@ -1,0 +1,27 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 53);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.qr_container{
+    height: fit-content;
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 39, 39);
+    gap: 5px;
+}
+.qr_container input{
+    padding: 10px;
+}
+.qr_container button{
+    background-color: rgb(50, 173, 173);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 15px;
+}
